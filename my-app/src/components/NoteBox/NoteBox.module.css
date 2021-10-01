@@ -1,0 +1,47 @@
+.NoteBox{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items:center;
+    margin-top: 100px;
+    height: 500px;
+    background-color: rgb(53, 53, 53);
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: inset 0 0 6px;
+}
+
+.button{
+    margin: 10px;
+    margin-left: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.find{
+    width: 30px;
+    height: 30px;
+    background-image: url('./../../image/png-clipart-magnifying-glass-magnifying-glass-s-glass-lens.png');
+    background-position: center;
+    background-size: 100% 100%;
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.add{
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.input{
+    border-radius: 10px;
+}
+
+.input:focus{
+    border: none;
+    outline:none;
+}
